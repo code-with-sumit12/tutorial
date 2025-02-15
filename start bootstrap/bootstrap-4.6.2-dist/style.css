@@ -1,0 +1,54 @@
+.container {
+    border: 0px solid black;
+
+}
+.row {
+    border: 0px solid #ee0f0f;
+
+}
+.col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 { 
+    border: 0px solid blue;
+}
+body{
+    background-color: rgb(17, 15, 15);
+}
+
+#Header{
+    padding: 10px 0px 10px 10px;
+    background-color: rgb(248, 212, 199)
+    
+    
+}
+#Manu{
+    padding: 3px 0px;
+    background-color: rgb(245, 202, 209);
+    
+}
+
+#Manu ul{
+   list-style: none;
+   margin: 0;
+}
+
+#Manu ul li{
+    display: inline-block;
+}
+
+#content{
+    background-color: white;
+    
+}
+#Sidebar{
+    background-color: rgb(196, 232, 245);
+    
+}
+#footer{
+    background-color: rgb(245, 201, 185);
+}
+.col-12{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+

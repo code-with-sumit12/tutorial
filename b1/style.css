@@ -1,0 +1,42 @@
+.cover-image {
+    background-image: url('https://livelias.com/assets/img/live-lias-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 200%;
+    z-index: 1000;
+    background-color: white;
+}
+.h1 {
+    font-size: 70px;
+}
+.cont-img {
+    width: 100%;
+    height: 500px;
+    background-image: url('girl.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.heading-border {
+    width: 60px;
+    height: 10px;
+    background-color: #0a7edd;
+    margin: 0 auto 20px auto;
+}
+.small-text-cust{
+    font-size: 12px;
+}
+.bg-dark1{
+    background-color: rgba(0, 0, 0, 0.541);}
